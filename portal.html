@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redirecting you to SLIME</title>
+  <script>
+    window.onload = function () {
+      const isMobile = window.innerWidth <= 768;
+      if (isMobile) {
+        window.location.href = "slimemobile.html";
+      } else {
+        window.location.href = "index.html";
+      }
+    };
+  </script>
+</head>
+<body>
+  <p style="color:white; background:black; text-align:center; padding:2rem; font-family:sans-serif;">
+    Loading the best Slime experience for your device...
+  </p>
+</body>
+</html>
